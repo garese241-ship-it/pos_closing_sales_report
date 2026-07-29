@@ -40,6 +40,11 @@ utilisé pour clôturer (interface caisse ou back-office).
     'author': 'GARESE',
     'website': 'https://www.garese.net',
     'license': 'LGPL-3',
+    'images': [
+        'static/description/icon.png',
+        'static/description/screenshot_email_detail.png',
+        'static/description/screenshot_inbox.png',
+    ],
     'depends': ['point_of_sale', 'account', 'mail'],
     'data': [
         'data/mail_template.xml',
